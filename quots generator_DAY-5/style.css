@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    opacity: 0.8;
+}
+
+body img{
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    filter: blur(2px);
+}
+
+.quote-cont{
+    height: 400px;
+    width: 450px;
+    background-color: rgba(255, 255, 255, 0.6); 
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+}
+
+.quote-cont h1{
+    margin: 20px;
+    padding-top: 20px;
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 50px;
+    color: #0c4423;
+    text-shadow: 2px 2px rgba(67, 86, 66, 0.5);
+}
+
+.quote-cont .quote{
+    margin: 40px auto 24px ;
+    width: 70%;
+    font-size: 24px;
+    color: #0c3e21;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.quote-cont .author{
+    margin: 0 0 20px 40%;
+    font-size: 22px;
+    color: rgb(6, 51, 37);
+    font-family: "Pinyon Script", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.quote-cont #next{
+    height: 80px;
+    width: 400px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    padding: 6%;
+    font-size: 20px;
+    color: #0c3e21;
+}
+
+#next::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid grey;
+}
