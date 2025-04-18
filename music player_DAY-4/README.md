@@ -14,7 +14,9 @@ This is a simple music player web application that allows you to play songs by c
 
 💻 Built using HTML, CSS, and JavaScript.
 
+
 📁 Files included:
+
 HTML: Structure and layout of the music player.
 
 CSS: Styling for the player interface.
