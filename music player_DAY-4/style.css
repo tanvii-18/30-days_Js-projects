@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    opacity: 0.8;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    /* background-image: url('img/background.jpg'); */
+    background-color: black;
+}
+
+.main .navbar{
+    height: 80px;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgba(255,255,255,0.3);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.navbar i{
+    color: white;
+    font-size: 22px;
+}
+
+.navbar h3{
+    font-size: 28px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    font-family: "Rubik Glitch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.home-cont{
+    color: white;
+    width: 100%;
+    padding-left: 45px;
+    display: block;
+}
+
+.home-cont h2{
+    font-size: 30px;
+    padding: 30px 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-cont p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main-box{
+    height: 750px;
+    width: 96%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-cont{
+    height: 200px;
+    width: 200px;
+    margin: 10px 10px;
+    padding-bottom: 25%;
+    text-align: center;
+}
+
+.img-cont img{
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.img-cont h3{
+    margin: 20px 0 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.img-cont p{
+    font-size: 13px;
+    color: rgb(213, 213, 213);
+}
+
+.playSong {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #111;
+    color: white;
+    padding: 1rem;
+    padding-left: 20px;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1000;
+    display: flex;
+}
+
+.playSong img{
+    height: 80px;
+    width: 80px;
+    margin: 0 20px;
+}
+
+.titles{
+    margin: 0 20px 10px;
+}
+
+.titles h3{
+    padding: 5px 0;
+}
+
+
+/* controls */
+
+.controls{
+    width: 100%;
+    height: auto;
+}
+
+#prevBtn{
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+
+#prevBtn i{
+    font-size: 22px;
+    padding: 0 10px;
+}
+
+
+#nextBtn{
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+
+#nextBtn i{
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+#playPauseBtn {
+    color: white;
+    border: none;
+    background-color: transparent
+}
+
+#playPauseBtn i{
+    font-size: 22px;
+    padding: 0 10px;
+}
+
+#seekBar{
+    width: 70%;
+}
