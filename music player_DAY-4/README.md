@@ -1,7 +1,7 @@
 https://github.com/user-attachments/assets/3b8f08d4-2448-4d69-8332-4d00ee241875
 
 
-🎵 Music Player - "Player" 🎶
+<h3>🎵 Music Player - "Player" 🎶</h3>
 
 This is a simple music player web application that allows you to play songs by clicking on the song posters. It includes the functionality of playing, pausing, and navigating through songs with next and previous buttons.
 
