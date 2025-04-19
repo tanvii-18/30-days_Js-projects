@@ -1,5 +1,4 @@
-https://github.com/user-attachments/assets/3b8f08d4-2448-4d69-8332-4d00ee241875
-
+![Image](https://github.com/user-attachments/assets/96d99513-a5fa-486f-b789-da9733fb837b)
 
 <h3>🎵 Music Player - "Player" 🎶</h3>
 
