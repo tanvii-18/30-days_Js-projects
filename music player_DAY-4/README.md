@@ -13,7 +13,7 @@ This is a simple music player web application that allows you to play songs by c
 
 💻 Built using HTML, CSS, and JavaScript.
 
-Check this on Linkedin : (https://www.linkedin.com/posts/tanvi-patel18_frontenddevelopment-javascriptprojects-webdevelopment-activity-7319385885152567297-3jMC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTPSCcB7i6UuKMBAU_l34C7R1Pt3Qg3t24)
+🎧 Ready to vibe? Here's my Music Player in action🔗 : (https://www.linkedin.com/posts/tanvi-patel18_frontenddevelopment-javascriptprojects-webdevelopment-activity-7319385885152567297-3jMC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTPSCcB7i6UuKMBAU_l34C7R1Pt3Qg3t24)
 
 📁 Files included:
 
