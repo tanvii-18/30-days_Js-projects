@@ -1,7 +1,3 @@
-// api key : 0610a5f87d31173a4158bc3827b4aa67
-
-// https://api.openweathermap.org/data/2.5/weather?units=metric&q=surat&appid=0610a5f87d31173a4158bc3827b4aa67
-
 const temprature = document.querySelector("#temprature");
 const tempDescription = document.querySelector("#description");
 const humidity = document.querySelector("#humidityPer");
