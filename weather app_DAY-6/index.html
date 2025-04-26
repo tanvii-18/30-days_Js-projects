@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css -->
+     <link rel="stylesheet" href="style.css">
+    <!-- icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+        <!-- main box which containes all infos -->
+        <div class="main-container">
+
+            <!-- search box -->
+            <div class="search-cont">
+                <input type="text" value="" placeholder="search country here" class="searchInput">
+                <button id="searchBtn"><i class='bx bx-search'></i></button>
+            </div>
+
+            <div class="detailsCont">
+                <div class="weather">
+                    <img src="img/cloud1.webp" alt="weather icon" id="weatherIcon">
+                </div>
+                <div class="cloudInfo">
+                    <h2 id="temprature">30 <span>°C</span></h2>
+                    <p id="description">Broken Clouds</p>
+                </div> 
+            </div>
+
+
+            <div class="weatherDetails">
+                    <div class="humidity">
+                        <i class='bx bx-water'></i>
+                        <div class="humidity-info">
+                            <span id="humidityPer">0%</span>
+                            <p>humidity</p>
+                        </div>
+                    </div>
+
+                    <div class="wind">
+                        <i class='bx bx-wind'></i>
+                        <div class="wind-info">
+                            <span id="windspeed">0km/h</span>
+                            <p>Wind speed</p>
+                        </div>
+                    </div>
+            </div>
+
+
+        </div>
+
+
+
+
+    
+    <!-- js -->
+     <script src="script.js"></script>
+</body>
+</html>

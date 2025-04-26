@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+body{
+    background: linear-gradient(to right, #a1ffce, #faffd1);
+    background: linear-gradient(to right, #b9fbc0, #a3c9f9);
+}
+
+.main-container{
+    height: 500px;
+    width: 450px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); 
+    margin: 5% auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.search-cont{
+    height: 40px;
+    width: 100%;
+    display: flex;
+}
+
+.search-cont input{
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    margin: 20px 2px;
+}
+
+.search-cont #searchBtn{
+    height: 40px;
+    width: 60px;
+    font-size: 22px;
+    padding-top: 2px;
+    border-radius: 10px;
+    border: 0;
+    margin: 20px 2px;
+    background-color: white;
+}
+
+.detailsCont{
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+.detailsCont .weather {
+    height: 200px;
+    width: 60%;
+    margin: 10% auto 0;
+}
+
+.detailsCont .weather img{
+    height: 100%;
+    width: 100%;
+}
+
+.cloudInfo{
+    padding-top: 20px;
+    text-align: center;
+}
+.cloudInfo h2{
+    font-size: 36px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cloudInfo #description{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.weatherDetails{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    color: white;
+}
+
+.humidity{
+    display: flex;
+}
+
+.humidity i{
+    font-size: 34px;
+    padding-right: 20px;
+}
+
+.humidity span{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.humidity p{
+    font-size: 14px;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.6px;
+}
+
+.wind{
+    display: flex;
+}
+
+.wind i{
+    font-size: 34px;
+    padding-right: 20px;
+}
+
+.wind span{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wind p{
+    font-size: 14px;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.6px;
+}
+
+.icon{
+    background: none;
+}
